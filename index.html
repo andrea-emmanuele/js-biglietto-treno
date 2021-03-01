@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calcolo Prezzo Biglietto Treno</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <form action="#">
+                <input id="km" type="text" placeholder="Inserisci i km che vuoi percorrere" required>
+                <input id="age" type="text" placeholder="Inserisci la tua età" required>
+                <input type="submit" value="Calcola prezzo" onclick="calc()">
+            </form>
+            <hr>
+            <div id="price"></div>
+        </div>
+    </main>
+
+    <script src="./assets/js/ticket-price.js"></script>
+</body>
+</html>
